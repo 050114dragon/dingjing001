@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl -w
 #perl fasta_format.pl <input> <out>
 #每条read对应的序列位于多行，使用此脚本，使每条read对应的序列合并为一行
 open FH1,"< $ARGV[0]";
